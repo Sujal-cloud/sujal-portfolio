@@ -1,0 +1,82 @@
+@import "tailwindcss";
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background: #020617;
+  color: white;
+  font-family: 'Inter', sans-serif;
+  overflow-x: hidden;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.heading-font {
+  font-family: 'Space Grotesk', sans-serif;
+}
+
+/* ================= ORBIT ================= */
+
+.orbit-container {
+  position: relative;
+  width: 480px;
+  height: 480px;
+}
+
+.orbit-ring {
+  position: absolute;
+  inset: 0;
+
+  border: 1px solid rgba(34, 211, 238, 0.2);
+  border-radius: 9999px;
+
+  /* animation: counterRotate 25s linear infinite; */
+  animation: none;
+}
+
+
+.orbit-item {
+  position: absolute;
+
+  top: 50%;
+  left: 50%;
+
+  width: 70px;
+  height: 70px;
+
+  margin-left: -35px;
+  margin-top: -35px;
+}
+
+.skill-orbit {
+  width: 70px;
+  height: 70px;
+
+  border-radius: 9999px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  color: #22d3ee;
+
+  background: rgba(15, 23, 42, 0.95);
+
+  border: 1px solid rgba(34, 211, 238, 0.25);
+
+  backdrop-filter: blur(12px);
+
+  box-shadow: 0 0 30px rgba(34, 211, 238, 0.12);
+  transition: all 0.3s ease;
+}
+
+.skill-orbit:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 40px rgba(34, 211, 238, 0.3);
+}
+
