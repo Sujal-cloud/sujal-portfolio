@@ -10,13 +10,12 @@ const sendEmail = (e: React.FormEvent) => {
 
   if (!formRef.current) return;
 
-  emailjs
-    .sendForm(
-      "service_ma6zx3d",
-      "template_yu97xu4",
-      formRef.current,
-      "2VKH1T-ZXFXSl7ceK"
-    )
+  emailjs.sendForm(
+    import.meta.env.VITE_EMAILJS_SERVICE_ID,
+    import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
+    formRef.current,
+    import.meta.env.VITE_EMAILJS_PUBLIC_KEY
+  )
     .then(() => {
       alert("Message sent successfully!");
       formRef.current?.reset();
