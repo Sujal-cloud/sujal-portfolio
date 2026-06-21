@@ -1,73 +1,123 @@
-# React + TypeScript + Vite
+# 🚀 Sujal Jethwani Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive developer portfolio built to showcase my projects, technical skills, achievements, and journey as a Computer Science Engineering student.
 
-Currently, two official plugins are available:
+## 🌐 Live Website
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Portfolio: https://sujal-jethwani.vercel.app
 
-## React Compiler
+## ✨ Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* Modern SaaS-inspired UI
+* Fully Responsive Design
+* Interactive Hero Section
+* Skills Showcase
+* Project Portfolio
+* Experience Timeline
+* Certifications & Achievements
+* Contact Form with EmailJS Integration
+* Smooth Animations using Framer Motion
+* Custom Favicon & SEO Optimization
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## 🛠️ Tech Stack
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+### Frontend
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+* React
+* TypeScript
+* Vite
+* Tailwind CSS
+* Framer Motion
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+### Additional Libraries
+
+* React Icons
+* Lucide React
+* React Type Animation
+* EmailJS
+
+---
+
+## 📂 Featured Projects
+
+### 🌍 TravelLoop
+
+Hackathon team project focused on travel planning and itinerary management. Contributed to frontend development, responsive UI implementation, authentication screens, and user experience design.
+
+### 🛒 UrbanCart
+
+Modern e-commerce platform built with React, TypeScript, Tailwind CSS, and Supabase. Currently under active development.
+
+### 🔐 Suspicious URL Detector
+
+Python Flask-based phishing URL detection system that analyzes URLs using rule-based techniques and provides security insights.
+
+---
+
+## 🏆 Achievements
+
+* 300+ Problems Solved
+* NPTEL Computer Networks (Elite)
+* IBM Python Certificate
+* JavaScript Specialist Certification
+* HTML & CSS Specialist Certification
+
+---
+
+## 👨‍💻 About Me
+
+I'm a Computer Science Engineering student passionate about:
+
+* Full Stack Development
+* Data Structures & Algorithms
+* Problem Solving
+* Open Source Learning
+* Building Real-World Projects
+
+Currently focused on strengthening my DSA skills while building modern web applications.
+
+---
+
+## 🚀 Getting Started
+
+### Clone Repository
+
+```bash
+git clone https://github.com/Sujal-cloud/sujal-portfolio.git
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+### Install Dependencies
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+```bash
+npm install
 ```
+
+### Run Development Server
+
+```bash
+npm run dev
+```
+
+### Build Production Version
+
+```bash
+npm run build
+```
+
+---
+
+## 📧 Contact
+
+Email: [sujaljethwani18@gmail.com](mailto:sujaljethwani18@gmail.com)
+
+LinkedIn:
+https://www.linkedin.com/in/sujal-jethwani-864974338
+
+GitHub:
+https://github.com/Sujal-cloud
+
+---
+
+⭐ If you like the project, consider giving it a star.
