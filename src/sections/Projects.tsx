@@ -31,10 +31,8 @@ export default function Projects() {
             <h3 className="text-4xl font-bold text-white mt-4">Traveloop</h3>
 
             <p className="text-gray-400 mt-4 leading-relaxed">
-              A modern travel planning platform that helps users organize
-              trips, itineraries, budgets, packing checklists, travel notes
-              and community interactions through a premium SaaS-inspired
-              experience.
+              A hackathon team project focused on travel planning and itinerary management. Contributed to frontend development, responsive UI implementation, authentication screens, and user experience design using React, TypeScript, and Tailwind CSS.
+
             </p>
 
             <div className="flex flex-wrap gap-3 mt-6">
